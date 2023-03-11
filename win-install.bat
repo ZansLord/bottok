@@ -46,7 +46,7 @@ if %ERRORLEVEL% NEQ 0 (
 )
 
 echo Installing BotTok...
-git clone git@github.com:jfadev/bottok.git
+git clone https://github.com/jfadev/bottok
 cd bottok
 npm install
 node bottok.js
